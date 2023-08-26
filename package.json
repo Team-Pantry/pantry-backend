@@ -1,0 +1,24 @@
+{
+  "name": "pantry-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Pantry/pantry-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-Pantry/pantry-backend/issues"
+  },
+  "homepage": "https://github.com/Team-Pantry/pantry-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mysql": "^2.18.1"
+  }
+}
