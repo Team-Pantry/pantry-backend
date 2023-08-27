@@ -27,6 +27,7 @@ CREATE TABLE trade_request (
 	CONSTRAINT fk_buyer FOREIGN KEY (buyer_id) REFERENCES user(id) ON DELETE CASCADE,
 	seller_id INT UNSIGNED NOT NULL,
 	CONSTRAINT fk_seller FOREIGN KEY (seller_id) REFERENCES user(id) ON DELETE CASCADE,
+	food_post_id INT UNSIGNED NOT NULL,
+	CONSTRAINT fk_food_post FOREIGN KEY (food_post_id) REFERENCES food_post(id) ON DELETE CASCADE,
 	status VARCHAR(30) NOT NULL
-
 );
