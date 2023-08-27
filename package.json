@@ -5,7 +5,7 @@
   "main": "connection.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-		"watch": "nodemon server.js"
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "mysql": "^2.18.1"
   },
   "devDependencies": {
-    "mysql2": "^3.6.0"
+    "mysql2": "^3.6.0",
+    "nodemon": "^3.0.1"
   }
 }
